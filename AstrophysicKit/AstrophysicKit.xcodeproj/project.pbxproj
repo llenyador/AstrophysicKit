@@ -9,6 +9,27 @@
 /* Begin PBXBuildFile section */
 		AFBA4D0E24C7B13200F2C465 /* AstrophysicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBA4D0424C7B13200F2C465 /* AstrophysicKit.framework */; };
 		AFBA4D1524C7B13200F2C465 /* AstrophysicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBA4D0724C7B13200F2C465 /* AstrophysicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFBA4D6624C7B1B100F2C465 /* EquatorialCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D4F24C7B1B100F2C465 /* EquatorialCoordinates.swift */; };
+		AFBA4D6724C7B1B100F2C465 /* HorizonCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5024C7B1B100F2C465 /* HorizonCoordinates.swift */; };
+		AFBA4D6824C7B1B100F2C465 /* GreenwichSiderealTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5324C7B1B100F2C465 /* GreenwichSiderealTime.swift */; };
+		AFBA4D6924C7B1B100F2C465 /* LocalSiderealTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5424C7B1B100F2C465 /* LocalSiderealTime.swift */; };
+		AFBA4D6A24C7B1B100F2C465 /* UniversalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5524C7B1B100F2C465 /* UniversalTime.swift */; };
+		AFBA4D6B24C7B1B100F2C465 /* LocalCivilTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5624C7B1B100F2C465 /* LocalCivilTime.swift */; };
+		AFBA4D6C24C7B1B100F2C465 /* HoursMinutesSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5724C7B1B100F2C465 /* HoursMinutesSeconds.swift */; };
+		AFBA4D6D24C7B1B100F2C465 /* DegreesMinutesSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5824C7B1B100F2C465 /* DegreesMinutesSeconds.swift */; };
+		AFBA4D6E24C7B1B100F2C465 /* GSTtoUTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5B24C7B1B100F2C465 /* GSTtoUTConverter.swift */; };
+		AFBA4D6F24C7B1B100F2C465 /* GSTtoLSTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5C24C7B1B100F2C465 /* GSTtoLSTConverter.swift */; };
+		AFBA4D7024C7B1B100F2C465 /* LCTtoUTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5D24C7B1B100F2C465 /* LCTtoUTConverter.swift */; };
+		AFBA4D7124C7B1B100F2C465 /* UTtoGSTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5E24C7B1B100F2C465 /* UTtoGSTConverter.swift */; };
+		AFBA4D7224C7B1B100F2C465 /* LSTtoGSTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5F24C7B1B100F2C465 /* LSTtoGSTConverter.swift */; };
+		AFBA4D7324C7B1B100F2C465 /* UTtoLCTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6024C7B1B100F2C465 /* UTtoLCTConverter.swift */; };
+		AFBA4D7424C7B1B100F2C465 /* TimeConversionResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6124C7B1B100F2C465 /* TimeConversionResults.swift */; };
+		AFBA4D7524C7B1B100F2C465 /* Numeric+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6324C7B1B100F2C465 /* Numeric+Additions.swift */; };
+		AFBA4D7624C7B1B100F2C465 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6424C7B1B100F2C465 /* Date+Additions.swift */; };
+		AFBA4D7724C7B1B100F2C465 /* CLLocationDegrees+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+Additions.swift */; };
+		AFBA4D7B24C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D7824C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift */; };
+		AFBA4D7C24C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D7924C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift */; };
+		AFBA4D7D24C7B1CF00F2C465 /* AstronomicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D7A24C7B1CF00F2C465 /* AstronomicsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +48,27 @@
 		AFBA4D0824C7B13200F2C465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFBA4D0D24C7B13200F2C465 /* AstrophysicKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrophysicKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBA4D1424C7B13200F2C465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBA4D4F24C7B1B100F2C465 /* EquatorialCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatorialCoordinates.swift; sourceTree = "<group>"; };
+		AFBA4D5024C7B1B100F2C465 /* HorizonCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizonCoordinates.swift; sourceTree = "<group>"; };
+		AFBA4D5324C7B1B100F2C465 /* GreenwichSiderealTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenwichSiderealTime.swift; sourceTree = "<group>"; };
+		AFBA4D5424C7B1B100F2C465 /* LocalSiderealTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalSiderealTime.swift; sourceTree = "<group>"; };
+		AFBA4D5524C7B1B100F2C465 /* UniversalTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalTime.swift; sourceTree = "<group>"; };
+		AFBA4D5624C7B1B100F2C465 /* LocalCivilTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalCivilTime.swift; sourceTree = "<group>"; };
+		AFBA4D5724C7B1B100F2C465 /* HoursMinutesSeconds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursMinutesSeconds.swift; sourceTree = "<group>"; };
+		AFBA4D5824C7B1B100F2C465 /* DegreesMinutesSeconds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesMinutesSeconds.swift; sourceTree = "<group>"; };
+		AFBA4D5B24C7B1B100F2C465 /* GSTtoUTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTtoUTConverter.swift; sourceTree = "<group>"; };
+		AFBA4D5C24C7B1B100F2C465 /* GSTtoLSTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSTtoLSTConverter.swift; sourceTree = "<group>"; };
+		AFBA4D5D24C7B1B100F2C465 /* LCTtoUTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTtoUTConverter.swift; sourceTree = "<group>"; };
+		AFBA4D5E24C7B1B100F2C465 /* UTtoGSTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTtoGSTConverter.swift; sourceTree = "<group>"; };
+		AFBA4D5F24C7B1B100F2C465 /* LSTtoGSTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTtoGSTConverter.swift; sourceTree = "<group>"; };
+		AFBA4D6024C7B1B100F2C465 /* UTtoLCTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTtoLCTConverter.swift; sourceTree = "<group>"; };
+		AFBA4D6124C7B1B100F2C465 /* TimeConversionResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversionResults.swift; sourceTree = "<group>"; };
+		AFBA4D6324C7B1B100F2C465 /* Numeric+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numeric+Additions.swift"; sourceTree = "<group>"; };
+		AFBA4D6424C7B1B100F2C465 /* Date+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
+		AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationDegrees+Additions.swift"; sourceTree = "<group>"; };
+		AFBA4D7824C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursMinutesSecondsTests.swift; sourceTree = "<group>"; };
+		AFBA4D7924C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesMinutesSecondsTests.swift; sourceTree = "<group>"; };
+		AFBA4D7A24C7B1CF00F2C465 /* AstronomicsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomicsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +111,9 @@
 		AFBA4D0624C7B13200F2C465 /* AstrophysicKit */ = {
 			isa = PBXGroup;
 			children = (
+				AFBA4D4E24C7B1B100F2C465 /* Coordinates */,
+				AFBA4D6224C7B1B100F2C465 /* Extensions */,
+				AFBA4D5124C7B1B100F2C465 /* Time */,
 				AFBA4D0724C7B13200F2C465 /* AstrophysicKit.h */,
 				AFBA4D0824C7B13200F2C465 /* Info.plist */,
 			);
@@ -78,9 +123,76 @@
 		AFBA4D1124C7B13200F2C465 /* AstrophysicKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				AFBA4D7A24C7B1CF00F2C465 /* AstronomicsTests.swift */,
+				AFBA4D7924C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift */,
+				AFBA4D7824C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift */,
 				AFBA4D1424C7B13200F2C465 /* Info.plist */,
 			);
 			path = AstrophysicKitTests;
+			sourceTree = "<group>";
+		};
+		AFBA4D4E24C7B1B100F2C465 /* Coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA4D4F24C7B1B100F2C465 /* EquatorialCoordinates.swift */,
+				AFBA4D5024C7B1B100F2C465 /* HorizonCoordinates.swift */,
+			);
+			path = Coordinates;
+			sourceTree = "<group>";
+		};
+		AFBA4D5124C7B1B100F2C465 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA4D5224C7B1B100F2C465 /* Time Types */,
+				AFBA4D5724C7B1B100F2C465 /* HoursMinutesSeconds.swift */,
+				AFBA4D5824C7B1B100F2C465 /* DegreesMinutesSeconds.swift */,
+				AFBA4D5924C7B1B100F2C465 /* Time Conversions */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		AFBA4D5224C7B1B100F2C465 /* Time Types */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA4D5324C7B1B100F2C465 /* GreenwichSiderealTime.swift */,
+				AFBA4D5424C7B1B100F2C465 /* LocalSiderealTime.swift */,
+				AFBA4D5524C7B1B100F2C465 /* UniversalTime.swift */,
+				AFBA4D5624C7B1B100F2C465 /* LocalCivilTime.swift */,
+			);
+			path = "Time Types";
+			sourceTree = "<group>";
+		};
+		AFBA4D5924C7B1B100F2C465 /* Time Conversions */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA4D5A24C7B1B100F2C465 /* Converters */,
+				AFBA4D6124C7B1B100F2C465 /* TimeConversionResults.swift */,
+			);
+			path = "Time Conversions";
+			sourceTree = "<group>";
+		};
+		AFBA4D5A24C7B1B100F2C465 /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA4D5B24C7B1B100F2C465 /* GSTtoUTConverter.swift */,
+				AFBA4D5C24C7B1B100F2C465 /* GSTtoLSTConverter.swift */,
+				AFBA4D5D24C7B1B100F2C465 /* LCTtoUTConverter.swift */,
+				AFBA4D5E24C7B1B100F2C465 /* UTtoGSTConverter.swift */,
+				AFBA4D5F24C7B1B100F2C465 /* LSTtoGSTConverter.swift */,
+				AFBA4D6024C7B1B100F2C465 /* UTtoLCTConverter.swift */,
+			);
+			path = Converters;
+			sourceTree = "<group>";
+		};
+		AFBA4D6224C7B1B100F2C465 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFBA4D6324C7B1B100F2C465 /* Numeric+Additions.swift */,
+				AFBA4D6424C7B1B100F2C465 /* Date+Additions.swift */,
+				AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+Additions.swift */,
+			);
+			name = Extensions;
+			path = ../../../Astronomics/Astronomics/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +260,7 @@
 					};
 					AFBA4D0C24C7B13200F2C465 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -192,6 +305,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBA4D6A24C7B1B100F2C465 /* UniversalTime.swift in Sources */,
+				AFBA4D7624C7B1B100F2C465 /* Date+Additions.swift in Sources */,
+				AFBA4D6E24C7B1B100F2C465 /* GSTtoUTConverter.swift in Sources */,
+				AFBA4D6D24C7B1B100F2C465 /* DegreesMinutesSeconds.swift in Sources */,
+				AFBA4D6C24C7B1B100F2C465 /* HoursMinutesSeconds.swift in Sources */,
+				AFBA4D7224C7B1B100F2C465 /* LSTtoGSTConverter.swift in Sources */,
+				AFBA4D6F24C7B1B100F2C465 /* GSTtoLSTConverter.swift in Sources */,
+				AFBA4D7424C7B1B100F2C465 /* TimeConversionResults.swift in Sources */,
+				AFBA4D7324C7B1B100F2C465 /* UTtoLCTConverter.swift in Sources */,
+				AFBA4D7724C7B1B100F2C465 /* CLLocationDegrees+Additions.swift in Sources */,
+				AFBA4D6624C7B1B100F2C465 /* EquatorialCoordinates.swift in Sources */,
+				AFBA4D7024C7B1B100F2C465 /* LCTtoUTConverter.swift in Sources */,
+				AFBA4D6B24C7B1B100F2C465 /* LocalCivilTime.swift in Sources */,
+				AFBA4D6924C7B1B100F2C465 /* LocalSiderealTime.swift in Sources */,
+				AFBA4D6724C7B1B100F2C465 /* HorizonCoordinates.swift in Sources */,
+				AFBA4D6824C7B1B100F2C465 /* GreenwichSiderealTime.swift in Sources */,
+				AFBA4D7124C7B1B100F2C465 /* UTtoGSTConverter.swift in Sources */,
+				AFBA4D7524C7B1B100F2C465 /* Numeric+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBA4D7C24C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift in Sources */,
+				AFBA4D7D24C7B1CF00F2C465 /* AstronomicsTests.swift in Sources */,
+				AFBA4D7B24C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +518,8 @@
 		AFBA4D1C24C7B13200F2C465 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54KT8754RF;
 				INFOPLIST_FILE = AstrophysicKitTests/Info.plist;
@@ -394,6 +530,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aitorsalvador.AstrophysicKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,6 +539,8 @@
 		AFBA4D1D24C7B13200F2C465 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54KT8754RF;
 				INFOPLIST_FILE = AstrophysicKitTests/Info.plist;
