@@ -9,9 +9,7 @@
 import XCTest
 @testable import AstrophysicKit
 
-
-
-class AstronomicsTests: XCTestCase {
+class ExtensionsTests: XCTestCase {
 
     func testJulianDayConvsersion() {
         let hms = HoursMinutesSeconds(hours: 0, minutes: 0, seconds: 0)

@@ -41,7 +41,7 @@ struct DegreesMinutesSeconds: Equatable {
         let decimalMinutes = absDegrees.truncatingRemainder(dividingBy: 1) * 60
         self.minutes = Int(decimalMinutes)
         let decimalSeconds = decimalMinutes.truncatingRemainder(dividingBy: 1) * 60
-        self.seconds = decimalSeconds
+        self.seconds = Double(Int(decimalSeconds))
         self.sign = sign
     }
     

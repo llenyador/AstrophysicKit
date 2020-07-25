@@ -31,7 +31,7 @@ public struct HoursMinutesSeconds: Equatable {
     
     init(decimalHours: Double) {
         var hours = Int(decimalHours)
-        var minutes = Int(round(decimalHours * 60).truncatingRemainder(dividingBy: 60))
+        var minutes = Int((decimalHours * 60).truncatingRemainder(dividingBy: 60))
         var seconds = Int(round(decimalHours * 3600).truncatingRemainder(dividingBy: 60))
         if seconds >= 60 {
             seconds = 0

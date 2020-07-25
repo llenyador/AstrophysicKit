@@ -21,7 +21,7 @@ class HoursMinutesSecondsTests: XCTestCase {
         XCTAssertEqual(t2, t)
         
         let t3 = HoursMinutesSeconds(decimalHours: 21.031560)
-        let expectedT3 = HoursMinutesSeconds(hours: 21, minutes: 2, seconds: 54)
+        let expectedT3 = HoursMinutesSeconds(hours: 21, minutes: 1, seconds: 54)
         XCTAssertEqual(t3, expectedT3)
         
         let t4 = HoursMinutesSeconds(hours: 0, minutes: 18, seconds: 0)
