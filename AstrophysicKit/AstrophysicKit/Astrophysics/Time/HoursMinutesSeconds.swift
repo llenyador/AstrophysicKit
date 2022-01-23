@@ -13,11 +13,11 @@ public typealias HMS = HoursMinutesSeconds
 public struct HoursMinutesSeconds: Equatable {
     let hours: Int
     let minutes: Int
-    let seconds: Int
+    let seconds: Double
     
     init(hours: Int,
          minutes: Int,
-         seconds: Int) {
+         seconds: Double) {
         
         guard hours <= 24 && hours >= 0,
             minutes <= 60 && minutes >= 0,
@@ -32,7 +32,7 @@ public struct HoursMinutesSeconds: Equatable {
     init(decimalHours: Double) {
         var hours = Int(decimalHours)
         var minutes = Int((decimalHours * 60).truncatingRemainder(dividingBy: 60))
-        var seconds = Int(round(decimalHours * 3600).truncatingRemainder(dividingBy: 60))
+        var seconds = round(decimalHours * 3600).truncatingRemainder(dividingBy: 60)
         if seconds >= 60 {
             seconds = 0
             minutes += 1

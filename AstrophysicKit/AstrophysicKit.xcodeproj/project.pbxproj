@@ -10,6 +10,11 @@
 		AF4C955724C90B0C004A5429 /* HourAngleEquatorialCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C955624C90B0C004A5429 /* HourAngleEquatorialCoordinates.swift */; };
 		AF65482A24CBAC4600B131F8 /* Trigonometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65482924CBAC4600B131F8 /* Trigonometry.swift */; };
 		AF65482C24CBAD9400B131F8 /* ReferenceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65482B24CBAD9300B131F8 /* ReferenceObserver.swift */; };
+		AF65482E24CBAF1400B131F8 /* EclipticCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65482D24CBAF1400B131F8 /* EclipticCoordinates.swift */; };
+		AF65483024CCCE3C00B131F8 /* JulianCenturiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65482F24CCCE3C00B131F8 /* JulianCenturiesTests.swift */; };
+		AF65483224CCE9AD00B131F8 /* JulianCenturies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65483124CCE9AD00B131F8 /* JulianCenturies.swift */; };
+		AF65483424CCEC0200B131F8 /* Epoch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65483324CCEC0200B131F8 /* Epoch.swift */; };
+		AF8DF8E8264FD5C50049DCBD /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8DF8E7264FD5C50049DCBD /* Sign.swift */; };
 		AFBA4D0E24C7B13200F2C465 /* AstrophysicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBA4D0424C7B13200F2C465 /* AstrophysicKit.framework */; };
 		AFBA4D1524C7B13200F2C465 /* AstrophysicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBA4D0724C7B13200F2C465 /* AstrophysicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFBA4D6624C7B1B100F2C465 /* EquatorialCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D4F24C7B1B100F2C465 /* EquatorialCoordinates.swift */; };
@@ -27,9 +32,9 @@
 		AFBA4D7224C7B1B100F2C465 /* LSTtoGSTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D5F24C7B1B100F2C465 /* LSTtoGSTConverter.swift */; };
 		AFBA4D7324C7B1B100F2C465 /* UTtoLCTConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6024C7B1B100F2C465 /* UTtoLCTConverter.swift */; };
 		AFBA4D7424C7B1B100F2C465 /* TimeConversionResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6124C7B1B100F2C465 /* TimeConversionResults.swift */; };
-		AFBA4D7524C7B1B100F2C465 /* Numeric+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6324C7B1B100F2C465 /* Numeric+Additions.swift */; };
-		AFBA4D7624C7B1B100F2C465 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6424C7B1B100F2C465 /* Date+Additions.swift */; };
-		AFBA4D7724C7B1B100F2C465 /* CLLocationDegrees+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+Additions.swift */; };
+		AFBA4D7524C7B1B100F2C465 /* Numeric+AstrophysicKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6324C7B1B100F2C465 /* Numeric+AstrophysicKit.swift */; };
+		AFBA4D7624C7B1B100F2C465 /* Date+AstrophysicKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6424C7B1B100F2C465 /* Date+AstrophysicKit.swift */; };
+		AFBA4D7724C7B1B100F2C465 /* CLLocationDegrees+AstrophysicKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+AstrophysicKit.swift */; };
 		AFBA4D7B24C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D7824C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift */; };
 		AFBA4D7C24C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D7924C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift */; };
 		AFBA4D7D24C7B1CF00F2C465 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBA4D7A24C7B1CF00F2C465 /* ExtensionsTests.swift */; };
@@ -50,6 +55,11 @@
 		AF4C955624C90B0C004A5429 /* HourAngleEquatorialCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourAngleEquatorialCoordinates.swift; sourceTree = "<group>"; };
 		AF65482924CBAC4600B131F8 /* Trigonometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigonometry.swift; sourceTree = "<group>"; };
 		AF65482B24CBAD9300B131F8 /* ReferenceObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceObserver.swift; sourceTree = "<group>"; };
+		AF65482D24CBAF1400B131F8 /* EclipticCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclipticCoordinates.swift; sourceTree = "<group>"; };
+		AF65482F24CCCE3C00B131F8 /* JulianCenturiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JulianCenturiesTests.swift; sourceTree = "<group>"; };
+		AF65483124CCE9AD00B131F8 /* JulianCenturies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JulianCenturies.swift; sourceTree = "<group>"; };
+		AF65483324CCEC0200B131F8 /* Epoch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epoch.swift; sourceTree = "<group>"; };
+		AF8DF8E7264FD5C50049DCBD /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 		AFBA4D0424C7B13200F2C465 /* AstrophysicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AstrophysicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBA4D0724C7B13200F2C465 /* AstrophysicKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstrophysicKit.h; sourceTree = "<group>"; };
 		AFBA4D0824C7B13200F2C465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,9 +80,9 @@
 		AFBA4D5F24C7B1B100F2C465 /* LSTtoGSTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTtoGSTConverter.swift; sourceTree = "<group>"; };
 		AFBA4D6024C7B1B100F2C465 /* UTtoLCTConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTtoLCTConverter.swift; sourceTree = "<group>"; };
 		AFBA4D6124C7B1B100F2C465 /* TimeConversionResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversionResults.swift; sourceTree = "<group>"; };
-		AFBA4D6324C7B1B100F2C465 /* Numeric+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numeric+Additions.swift"; sourceTree = "<group>"; };
-		AFBA4D6424C7B1B100F2C465 /* Date+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
-		AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationDegrees+Additions.swift"; sourceTree = "<group>"; };
+		AFBA4D6324C7B1B100F2C465 /* Numeric+AstrophysicKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numeric+AstrophysicKit.swift"; sourceTree = "<group>"; };
+		AFBA4D6424C7B1B100F2C465 /* Date+AstrophysicKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+AstrophysicKit.swift"; sourceTree = "<group>"; };
+		AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+AstrophysicKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationDegrees+AstrophysicKit.swift"; sourceTree = "<group>"; };
 		AFBA4D7824C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursMinutesSecondsTests.swift; sourceTree = "<group>"; };
 		AFBA4D7924C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesMinutesSecondsTests.swift; sourceTree = "<group>"; };
 		AFBA4D7A24C7B1CF00F2C465 /* ExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
@@ -115,6 +125,14 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		AF8DF8E6264FD5B50049DCBD /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				AF8DF8E7264FD5C50049DCBD /* Sign.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		AFBA4CFA24C7B13200F2C465 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +154,7 @@
 		AFBA4D0624C7B13200F2C465 /* AstrophysicKit */ = {
 			isa = PBXGroup;
 			children = (
+				AF8DF8E6264FD5B50049DCBD /* Types */,
 				AF65482824CBAC3800B131F8 /* Functions */,
 				AF65482724CBAC2600B131F8 /* Astrophysics */,
 				AFBA4D6224C7B1B100F2C465 /* Extensions */,
@@ -152,6 +171,7 @@
 				AFBA4D7E24C7B34E00F2C465 /* CoordinatesTests.swift */,
 				AFBA4D7924C7B1CF00F2C465 /* DegreesMinutesSecondsTests.swift */,
 				AFBA4D7824C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift */,
+				AF65482F24CCCE3C00B131F8 /* JulianCenturiesTests.swift */,
 				AFBA4D1424C7B13200F2C465 /* Info.plist */,
 			);
 			path = AstrophysicKitTests;
@@ -163,6 +183,7 @@
 				AFBA4D4F24C7B1B100F2C465 /* EquatorialCoordinates.swift */,
 				AF4C955624C90B0C004A5429 /* HourAngleEquatorialCoordinates.swift */,
 				AFBA4D5024C7B1B100F2C465 /* HorizonCoordinates.swift */,
+				AF65482D24CBAF1400B131F8 /* EclipticCoordinates.swift */,
 				AF65482B24CBAD9300B131F8 /* ReferenceObserver.swift */,
 			);
 			path = Coordinates;
@@ -175,6 +196,8 @@
 				AFBA4D5924C7B1B100F2C465 /* Time Conversions */,
 				AFBA4D5724C7B1B100F2C465 /* HoursMinutesSeconds.swift */,
 				AFBA4D5824C7B1B100F2C465 /* DegreesMinutesSeconds.swift */,
+				AF65483124CCE9AD00B131F8 /* JulianCenturies.swift */,
+				AF65483324CCEC0200B131F8 /* Epoch.swift */,
 			);
 			path = Time;
 			sourceTree = "<group>";
@@ -215,9 +238,9 @@
 		AFBA4D6224C7B1B100F2C465 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AFBA4D6324C7B1B100F2C465 /* Numeric+Additions.swift */,
-				AFBA4D6424C7B1B100F2C465 /* Date+Additions.swift */,
-				AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+Additions.swift */,
+				AFBA4D6324C7B1B100F2C465 /* Numeric+AstrophysicKit.swift */,
+				AFBA4D6424C7B1B100F2C465 /* Date+AstrophysicKit.swift */,
+				AFBA4D6524C7B1B100F2C465 /* CLLocationDegrees+AstrophysicKit.swift */,
 			);
 			name = Extensions;
 			path = ../../../Astronomics/Astronomics/Classes/Extensions;
@@ -335,25 +358,29 @@
 			files = (
 				AF65482A24CBAC4600B131F8 /* Trigonometry.swift in Sources */,
 				AFBA4D6A24C7B1B100F2C465 /* UniversalTime.swift in Sources */,
-				AFBA4D7624C7B1B100F2C465 /* Date+Additions.swift in Sources */,
+				AFBA4D7624C7B1B100F2C465 /* Date+AstrophysicKit.swift in Sources */,
 				AFBA4D6E24C7B1B100F2C465 /* GSTtoUTConverter.swift in Sources */,
+				AF65482E24CBAF1400B131F8 /* EclipticCoordinates.swift in Sources */,
 				AFBA4D6D24C7B1B100F2C465 /* DegreesMinutesSeconds.swift in Sources */,
 				AFBA4D6C24C7B1B100F2C465 /* HoursMinutesSeconds.swift in Sources */,
 				AFBA4D7224C7B1B100F2C465 /* LSTtoGSTConverter.swift in Sources */,
 				AFBA4D6F24C7B1B100F2C465 /* GSTtoLSTConverter.swift in Sources */,
 				AFBA4D7424C7B1B100F2C465 /* TimeConversionResults.swift in Sources */,
 				AFBA4D7324C7B1B100F2C465 /* UTtoLCTConverter.swift in Sources */,
-				AFBA4D7724C7B1B100F2C465 /* CLLocationDegrees+Additions.swift in Sources */,
+				AFBA4D7724C7B1B100F2C465 /* CLLocationDegrees+AstrophysicKit.swift in Sources */,
+				AF8DF8E8264FD5C50049DCBD /* Sign.swift in Sources */,
 				AFBA4D6624C7B1B100F2C465 /* EquatorialCoordinates.swift in Sources */,
 				AF65482C24CBAD9400B131F8 /* ReferenceObserver.swift in Sources */,
 				AFBA4D7024C7B1B100F2C465 /* LCTtoUTConverter.swift in Sources */,
+				AF65483224CCE9AD00B131F8 /* JulianCenturies.swift in Sources */,
 				AFBA4D6B24C7B1B100F2C465 /* LocalCivilTime.swift in Sources */,
 				AFBA4D6924C7B1B100F2C465 /* LocalSiderealTime.swift in Sources */,
 				AFBA4D6724C7B1B100F2C465 /* HorizonCoordinates.swift in Sources */,
 				AFBA4D6824C7B1B100F2C465 /* GreenwichSiderealTime.swift in Sources */,
 				AFBA4D7124C7B1B100F2C465 /* UTtoGSTConverter.swift in Sources */,
+				AF65483424CCEC0200B131F8 /* Epoch.swift in Sources */,
 				AF4C955724C90B0C004A5429 /* HourAngleEquatorialCoordinates.swift in Sources */,
-				AFBA4D7524C7B1B100F2C465 /* Numeric+Additions.swift in Sources */,
+				AFBA4D7524C7B1B100F2C465 /* Numeric+AstrophysicKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +392,7 @@
 				AFBA4D7D24C7B1CF00F2C465 /* ExtensionsTests.swift in Sources */,
 				AFBA4D7B24C7B1CF00F2C465 /* HoursMinutesSecondsTests.swift in Sources */,
 				AFBA4D7F24C7B34E00F2C465 /* CoordinatesTests.swift in Sources */,
+				AF65483024CCCE3C00B131F8 /* JulianCenturiesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

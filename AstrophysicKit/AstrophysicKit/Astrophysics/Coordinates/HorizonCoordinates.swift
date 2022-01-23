@@ -14,14 +14,14 @@ import Foundation
 struct HorizonCoordinates: Equatable {
     let azimut: Degrees
     let altitude: Degrees
-    
+
     /**
      Flag that indicates if object with these horizon coordinates is visible in its horizon.
      */
     var isBelowHorizon: Bool {
         altitude.isNegative
     }
-    
+
     func toEquatorialCoordinates(observerLatitude: Degrees,
                                  lst: LocalSiderealTime) -> EquatorialCoordinates {
         let sinDeclination = ( sind(altitude) * sind(observerLatitude) )
